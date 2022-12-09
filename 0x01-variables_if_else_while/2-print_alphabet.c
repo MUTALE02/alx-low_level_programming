@@ -1,15 +1,18 @@
 #include <stdio>
+#include <stdlib>
+
 /**
-* main - printf alpha in lower case
+* main - printf alphabet
 *Return: Always 0
 */
 int main(void)
 {
-	char lc;
+	int ch = 'a';
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	while (ch <= 'z')
 	{
-	putchar(lc);
+	putchar(ch);
+	ch++
 	}
 	putchar('\n');
 	return (0);
