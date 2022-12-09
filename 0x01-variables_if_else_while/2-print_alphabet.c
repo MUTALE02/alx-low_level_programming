@@ -1,5 +1,5 @@
-#include <stdio>
-#include <stdlib>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - printf alphabet
@@ -12,7 +12,7 @@ int main(void)
 	while (ch <= 'z')
 	{
 	putchar(ch);
-	ch++
+	ch++;
 	}
 	putchar('\n');
 	return (0);
