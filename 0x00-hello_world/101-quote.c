@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <unstd.h>
+#include<stdio.h>
+#include<unistd.h>
 /**
 * main - inputs
 * Return: Always 1
