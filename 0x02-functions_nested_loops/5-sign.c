@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
 * print_sign - print the sign of a sum
@@ -21,9 +21,8 @@ int print_sign(int n)
 	return (0);
 	}
 	else
-	}
+	{
 	_putchar('-');
 	return (-1);
-	{
 	}
 }
