@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* time_table - out put 9x table, starting at 0
+* times_table - out put 9x table, starting at 0
 * Return: null
 */
 
@@ -33,6 +33,21 @@ void times_table(void)
 	}
 	_putchar(z + '0');
 	}
+	}
+	putchar('\n');
+	}
+}
+	_putchar(u + '0');
+	}
+	else
+	{
+	if (y != 0)
+	{
+	_putchar(44);
+	_putchar(32);
+	_putchar(32);
+	}
+	_putchar(z + '0');
 	}
 	_putchar('\n');
 }
