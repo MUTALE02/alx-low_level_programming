@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-* num - returns the length of string
-* @n: operand number
+* numLength - returns the length of string
+* @num: operand number
 * Return: number of digits
 */
 int numLength(int num)
@@ -30,6 +30,7 @@ int numLength(int num)
 int main(void)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f10 = 0 f20 = 0, tmpo = 0;
+	short int i = 1, initial0s;
 
 	while (i <= 98)
 	{
