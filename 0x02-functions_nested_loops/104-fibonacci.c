@@ -40,7 +40,7 @@ int main(void)
 	while (f10 > 0 && initial0s > 0)
 	{
 	printf("%i", 0);
-	initial0s --i;
+	initial0s--;
 	}
 	printf("%lu", f1);
 
