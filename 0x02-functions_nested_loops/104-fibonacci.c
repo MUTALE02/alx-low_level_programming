@@ -1,11 +1,10 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
-* numLength - returns the length of string
+* num - returns the length of string
 * @n: operand number
 * Return: number of digits
 */
-
 int numLength(int num)
 {
 	int length = 0;
@@ -21,8 +20,8 @@ int numLength(int num)
 	}
 
 	return (length);
-	
 }
+
 /**
 * *main - prints the first 98 fibonaci sequences
 * Return: 0
@@ -40,19 +39,18 @@ int main(void)
 	while (f10 > 0 && initial0s > 0)
 	{
 	printf("%i", 0);
-	initial0s--i;
+	initial0s --i;
 	}
 	printf("%lu", f1);
 
 	tmp = (f1 + f2) % mx;
-	tmpo = f10 + f20 + (f1 + f2) /mx;
+	tmpo = f10 + f20 + (f1 + f2) / mx;
 	f1 = f2;
 	f10 = f20;
 	f2 = tmpo;
-
-	if (i !=98)
+	if (i != 98)
 	printf(" ,");
-	else 
+	else
 	printf("\n");
 	i++;
 	}
