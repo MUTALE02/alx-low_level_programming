@@ -7,7 +7,7 @@ int count = 0, i;
 
 	while (*src)
 	{
-	src++
+	src++;
 	count++;
 }
 
