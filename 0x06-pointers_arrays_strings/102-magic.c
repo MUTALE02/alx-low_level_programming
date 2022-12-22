@@ -1,7 +1,7 @@
 #include <stdio.h>
-int main(void)
-{
 
+intmain(void)
+{
 int n;
 
 int a[5];
