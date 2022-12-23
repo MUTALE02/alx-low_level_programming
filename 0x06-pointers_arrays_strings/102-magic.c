@@ -4,13 +4,10 @@
  * Description: 'the program's description'
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int n;
-
 int a[5];
-
 int *p;
 
 a[2] = 1024;
