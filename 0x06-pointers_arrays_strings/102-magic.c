@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: 'the program's description'
- * Return: Always 0 (Success)
+ * Description: prints a[2] = 98
+ * Return: 0
  */
 int main(void)
 {
