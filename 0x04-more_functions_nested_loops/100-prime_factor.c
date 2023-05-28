@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-long int n;
-n = 612852475143;
-if (isPrime(n) == 1)
+long int number;
+number = 612852475143;
+if (isPrime(number) == 1)
 {
-printf("%ld\n", n);
+printf("%ld\n", number);
 }
 else
 {
-printf("%ld\n", biggestFactor(n));
+printf("%ld\n", biggestFactor(number));
 }
 return (0);
 }
@@ -29,8 +29,7 @@ return (0);
 int isPrime(long int n)
 {
 int i;
-
-if (num <= 1)
+if (n <= 1)
 {
 return (0);
 }
@@ -40,9 +39,9 @@ return (1);
 }
 else
 {
-for (i = 2; i < num; i++)
+for (i = 2; i < n; i++)
 {
-if (num % i == 0)
+if (n % i == 0)
 {
 return (0);
 }
